@@ -1,0 +1,159 @@
+body{
+    font-family: 'Cinzel', serif;
+    color: skyblue;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+.hero{
+  color: #FED85D;
+ text-align: center;
+ margin-bottom: 30px;
+ padding-top: 475px;
+ padding-bottom: 475px;
+ background-color: white;
+ background-image: url(final2.0.jpg);
+ background-position: center 100%;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+h3 {
+    font-size: 35px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    padding: 35px;
+}
+h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding: 30px
+}
+main {
+    
+	width: 70%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+header {
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+	width: 100%;
+	display: block;
+  text-align: center;
+  margin-bottom: 30px;
+   
+	}
+footer{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: rosybrown
+}
+
+.flex {
+  font-size: 25px;
+  color: deepskyblue;
+ text-align: center;
+ margin-bottom: 30px;
+ padding-top: 500px;
+ padding-bottom: 500px;
+ background-color: #ddd;
+ background-image: url(loveback.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.work{
+    font-size: 50px;
+  color: deepskyblue;
+ text-align: center;
+ margin-bottom: 30px;
+ padding-top: 300px;
+ padding-bottom: 600px;
+ background-color: #ddd;
+ background-image: url(s4.jpeg);
+ background-position: none;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+.tall{
+    width: 80%;
+	display: block;
+	text-align: center:
+
+}
+.mall{
+    font-family: 'Cinzel', serif;
+   font-size: 40px;
+  color: steelblue;
+ text-align: center;
+ margin-bottom: 30px;
+ padding-top: 400px;
+ padding-bottom: 450px;
+ background-color: #ddd;
+ background-image: url(LORDback3.jpg);
+ background-position: left 25%;
+ background-repeat: no-repeat;
+ background-size: cover;
+    }
+.me{
+ font-size: 40px;
+ color: greenyellow;
+ text-align: center;
+ margin-bottom: 30px;
+ padding-top: 450px;
+ padding-bottom: 450px;
+ background-color: #ddd;
+ background-image: url(bastard2.jpg);
+ background-position: left 25%;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+.Contact{
+    font-size: 50px;
+ color: crimson;
+ text-align: center;
+ margin-bottom: 30px;
+ padding-top: 350px;
+ padding-bottom: 450px;
+ background-color: #ddd;
+ background-image: url(finale2.jpg);
+ background-position: none;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+header{
+    font-family: 'Ultra', serif;
+    color: skyblue;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    
+}
+
+.hero2{
+    color: #FED85D;
+ text-align: center;
+ margin-bottom: 30px;
+ padding-top: 400px;
+ padding-bottom: 350px;
+ background-color: white;
+ background-image: url(2ndback.jpg);
+ background-position: center 100%;
+ background-repeat: no-repeat;
+ background-size: cover;
+    
+}
+header {
+    font-family: 'Cinzel', serif;
+	width: 70%;
+	display: block;
+  text-align: center;
+  margin-bottom: 30px;
+   
+	}
