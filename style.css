@@ -5,7 +5,7 @@ padding: 0;
 -moz-box-sizing: border-box;
 }
 body {
-  background-image: url(Cyber.jpg);
+  background-image: url(cyber.jpg);
   -webkit-background-size:cover;
   background-size:cover;
   background-position: center center;
