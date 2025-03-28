@@ -1,0 +1,131 @@
+.iframe-container{
+display: flex;
+justify-content: center;   /* centers the iframe*/
+margin-top: 20px;
+}
+li:hover{
+    background-color: orange;
+}
+ul{
+list-style-type: none;
+display: flex;
+justify-content: center;
+background-color: orange;   /* changes the color of the menu section only*/
+gap: 20px;
+padding: 15px 0;   /* controls the height of the background color*/
+margin: 0;
+align-items: stretch;
+height: 70px;
+padding: 0;
+}
+li{
+padding: 0px 30px;
+display: flex;
+color: rgb(255, 255, 255);
+font-family: Arial, sans-serif;
+font-weight: bold;
+border-radius: 0;
+cursor: pointer;
+transition: background-color 0.3s;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+li:hover{
+background-color: rgb(214, 39, 39);
+color: rgb(255, 255, 255);
+
+}
+
+body{
+background-color: lightgray;      /* changes the background color of the whole page*/
+
+}
+
+.assignment-frame{     /* to customize the assignment 1 embedded */
+border: 100px red;
+border-radius: 10px;;
+padding: 3px;
+box-shadow: 0 0 10px rgba(15, 53, 122, 0.842);
+
+}
+
+.tokyo-img{     /* to customize the tokyo tower image*/
+    margin-top: 60px;    /* to move the picture more down the page, px is pixels.*/
+    margin-left: 100px;
+    width: 30%;
+    height: auto;
+    border: 5px black;
+    border-radius: 80px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* This adds a soft shadow around the element:
+    - First 0 = no horizontal offset (shadow stays centered left/right)
+    - Second 0 = no vertical offset (shadow stays centered top/bottom)
+    - 10px = how blurry the shadow is (higher = softer/larger)
+    - rgba(0, 0, 0, 0.2) = black shadow with 20% transparency */
+
+}
+.table-frame{   /* to customize the table in the page*/
+border: 5px black;
+width: 30%;
+margin: 40px  auto;
+font-family: Arial, sans-serif;
+background-color: hotpink;
+color: rgb(0, 0, 0);
+text-align: center;
+border-collapse: separate;
+border-spacing: 0;
+margin-right: 150px;
+margin-top: -150px;
+position: relative;
+top: -70px;
+left: -60px;
+}
+.table-frame td{  /* customizing the words in the table*/
+    vertical-align: bottom;
+    padding: 0 10px;
+    height: 120px;
+}
+.hotpink-row td{
+    background-color: hotpink;
+    font-family: Arial, sans-serif;
+          /*this alligns the text to the bottom rather than the center*/
+}
+.pink-row td{
+    background-color: pink;
+    font-family: Courier, monospace;
+    
+    
+    
+}
+.lightpink-row td{
+    background-color: lightpink;
+    font-family: cursive;
+    
+}
+body{  /*tourist image customization*/
+background-image: url("tourist.png");
+background-repeat: no-repeat;
+background-position: 200px 150px;    /* 50px =right   100px=down*/
+background-size: 200px;
+}
+body, html{   /* makes the orange menu stretch to the top of the page*/
+    margin: 0;
+    padding: 0;
+}
+.popup-button{     /* this is for the clickable button*/
+    background-color: green;
+    color: White;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none;
+    border-radius: 25px;    /*rounded corners*/
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 30px auto;
+    display: block;   /* to center it*/
+}
+.popup-button:hover{
+background-color: darkorange;
+
+}
