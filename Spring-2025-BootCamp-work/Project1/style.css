@@ -55,7 +55,7 @@ body{
     line-height: 1.6;
 }
 .japan-logo{
-    margin-top: 10px;    /* to move the picture more down the page, px is pixels.*/
+    margin-top: 10px;    /* to move the picture more down the page*/
     margin-left: 10px;
     width: auto;
     height: 150px;
@@ -95,7 +95,7 @@ hr, hr2{
 .box{
     background-color: rgba(194, 29, 29, 0.3);
     height: auto;                
-    padding: 20px 60px;           /* smaller padding */
+    padding: 20px 60px;           
     margin: 10px 15px 20px 5px;
     border: 2px solid black;
     border-radius: 5px;
@@ -112,7 +112,7 @@ hr, hr2{
     justify-content: space-between; /* aligns content to the left */
     gap: 30px;
     margin-top: 30px;
-    padding-left: 0 40px; /* optional: adds some space from the left edge */
+    padding-left: 0 40px; /* adds some space from the left edge */
 }
 
 .asakusa{
@@ -168,7 +168,7 @@ hr, hr2{
     justify-content: space-between; /* aligns content to the left */
     gap: 30px;
     margin-top: 65px;
-    padding-left: 0 40px; /* optional: adds some space from the left edge */
+    padding-left: 0 40px; /* adds some space from the left edge */
 }
 .nintendo{
     width: auto;
@@ -194,7 +194,7 @@ hr, hr2{
 .site-header {
     position: sticky;
     top: 0;
-    background-color: white; /* match your page color */
+    background-color: white; /* matches the footer color */
     z-index: 1000;
     display: flex;
     align-items: center;
@@ -352,7 +352,7 @@ hr, hr2{
     padding-bottom: 15px;
 }
 .nintendo-footer {
-    background-color: #aa1f1f; /* Nintendo yellow */
+    background-color: #aa1f1f; /* Nintendo yellow ish */
     color: black;
     padding: 20px 0;
     text-align: center;
@@ -381,7 +381,7 @@ hr, hr2{
   text-align: left;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* 💡 this vertically centers the content */
+  justify-content: center; /* centers the content */
   height: 100%;
   }
   .contact-us h3 {
