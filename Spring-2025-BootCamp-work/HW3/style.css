@@ -1,0 +1,97 @@
+body{
+    background-color: beige;
+    display: flex;   
+    gap: 20px; 
+}
+.box{
+    margin-top: 50px;
+    width: 25%;
+    height: auto;
+}
+.menu{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    list-style-type: none;
+    
+
+}
+
+.menu li {
+    background-color: lightblue;
+    color: white;
+    font-style: unset;
+    padding: 25px 0;
+    text-align: center;
+    margin: 0;
+}
+.menu li:first-child{
+    background-color: rgb(43, 180, 61);
+ }
+ 
+ .twobytwoblock {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 62%;
+    margin-top: 50px;
+}
+.twobytwoblock > div:not(:has(img)) {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white; 
+    border-radius: 0;
+}
+.twobytwoblock > div:has(img) {
+    box-shadow: 4px 4px 15px rgba(223, 219, 19, 0.5); /* red shadow with 40% opacity */
+}
+
+.twobytwoblock > div {
+    background-color: white; 
+    height: 350px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    border: 2px solid red;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 10px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.twobytwoblock img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    box-sizing: border-box;
+
+}
+
+@media (max-width: 768px) {
+    .flexbox {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .box {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .menu li {
+        font-size: 18px;
+    }
+}
