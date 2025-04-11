@@ -1,0 +1,481 @@
+body{
+    background-color: #D2B48C;
+    margin: 0;
+    padding: 0;
+    
+}
+hr {
+    border: none;
+    height: 2px;
+    background-color: #000000;
+    margin: 40px auto;
+    margin-top: 5px;
+    width: 100vw;
+    border-radius: 4px;
+  }
+
+  
+.frame{
+    height: 250px;
+    overflow: hidden;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.frame2 {
+    width: 100vw;              /* Full viewport width */
+    height: 500px;             /* You can make it taller if needed */
+    margin: 0;
+    overflow: hidden;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.header-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+
+
+.header-img {
+    max-height: 200px;
+    width: auto;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: -100px;
+    left: 50px;
+    animation: fall 4s linear infinite;
+
+}
+
+.main-title {
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 650px;
+    animation: moveh1 3s;
+    animation: moveh1 3s linear infinite;
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+.sub-title {
+    font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 120px;
+  left: 500px;
+  animation: moveh2 3s;
+  animation-iteration-count: infinite;
+  text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+.announcement-bar {
+    width: 100%;
+    font-size: large;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #37b826;
+    color: #000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation: bgCycle 6s infinite;
+}
+.announcement-bar .code {
+    font-style: italic;
+}
+
+.slidewrapper{
+    width: 500%;
+    height: 100%;
+    animation: slideshow 30s infinite;
+    display: flex;
+}
+.slidewrapper>div{
+    position: relative;
+    width: 25%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.slide-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+
+.s1{
+    background-image: url('images/back1.jpg');
+    background-size: 100% 100%;
+ }
+ .s2{
+     background-image: url('images/back2.jpg');
+     background-size: 100% 100%;
+ }
+ .s3{
+     background-image: url('images/back3.jpg');
+    background-size: 100% 100%;
+ }
+ .s4{
+     background-image: url('images/back4.jpg');
+     background-size: 100% 100%;
+ }
+ .giftset1 {
+    margin-left: 200px;  /* moves it right */
+    margin-right: 20px; /* moves it left if inside a flex container */
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #fbeec1, #f5d9a0);
+    
+  }
+  
+
+ .giftset1 img {
+    width: 600px;  
+    height: auto;   
+    border-radius: 10px; 
+    
+  }
+
+
+  .text1{
+    margin-left: 40px;
+    max-width: 500px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #2c2c2c;
+    font-family: 'Georgia', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px; /* space between h2, p, and button */
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 20px 8px 50px rgba(0,0,0,0.1);
+    
+  }
+  .item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px 20px 40px;
+    background: linear-gradient(to right, #fbeec1, #f5d9a0);
+  }
+
+.collection-title{
+    font-family: 'Georgia', serif;
+    margin-left: 50px;
+}
+.container {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 180px; /* adds space between them */
+  }
+  .product {
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 500px; /* Ensures equal height */
+  width: 260px;
+  margin: 10px 25px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: #2c2c2c;
+  }
+  .product-info {
+    margin-top: 10px;
+  }
+  .product p {
+    margin: 8px 0;
+  }
+  .product-info p:first-child {
+  font-family: 'Playfair Display', serif; /* or another font you like */
+  font-size: 22px;
+  font-weight: bold;
+  color: #2c2c2c;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+  
+  .add-to-cart-btn {
+    padding: 8px 12px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Georgia, serif;
+  transition: all 0.3s ease;
+  }
+
+  .product img {
+    width: 260px;   
+    height: auto;   
+    object-fit: cover; 
+    border-radius: 10px; 
+  }
+  .add-to-cart-btn:hover {
+    background-color: #333;
+  color: white;
+  transform: scale(1.10);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  .tooltip-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip-text {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f9f9f9;
+    padding: 6px 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: opacity 0.3s ease;
+    font-size: 14px;
+  }
+  
+  .tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+  }
+  
+  .modal:target {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-box {
+    background: #57df94;
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 550px;
+    position: relative;
+    font-family: Georgia, serif;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px; right: 20px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+  }
+  
+  .modal-img {
+    max-width: 220px; /* Try increasing or use a percentage */
+  margin: 20px auto;
+  display: block;
+  }
+  
+  .continue-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #eee;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  .desc {
+    font-size: 20px;
+    color: #555;
+  }
+
+  .index-footer{
+    background-color: #333;
+  color: white;
+  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.3);
+    padding: 100px 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-top: 2px solid black;
+    position: relative;
+  }
+  .index-footer hr {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(255, 252, 252);
+    border: none;
+  }
+  .footer-columns {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    flex-wrap: wrap;
+    
+  }
+  
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .footer-column h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .footer-column a:hover {
+    text-decoration: underline;
+  }
+
+  .contact-us{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px; /* add spacing between icons */
+  flex-wrap: wrap; /* so it wraps on smaller screens */
+  margin-top: 20px;
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .contact-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  .contact-us h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-credit.dark {
+    position: absolute;
+    bottom: 10px; /* or 0px if you want it flush */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    color: #fff8f8;
+    margin: 0;
+}
+
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      gap: 40px;
+      padding: 20px;
+    }
+  
+    .product img {
+      width: 80%;
+      max-width: 300px;
+    }
+  }
+
+@keyframes moveh1 {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes moveh2{
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes fall {
+    0%   { top: -100px; opacity: 0; }
+  5%   { opacity: 1; }
+  80%  { top: 250px; opacity: 1; }
+  100% { top: 250px; opacity: 0; }
+}
+@keyframes bgCycle {
+    0%   { background-color: #21ca45; }
+    33%  { background-color: #f39c12; }
+    66%  { background-color: #d35400; } 
+    100% { background-color: #f1c40f; } 
+}
+@keyframes slideshow {
+    0%   { margin-left: 0%; }
+    20%  { margin-left: 0%; }
+
+    25%  { margin-left: -100%; }
+    45%  { margin-left: -100%; }
+
+    50%  { margin-left: -200%; }
+    70%  { margin-left: -200%; }
+
+    75%  { margin-left: -300%; }
+    95%  { margin-left: -300%; }
+
+    100% { margin-left: -400%; } /* clone slide */
+}
