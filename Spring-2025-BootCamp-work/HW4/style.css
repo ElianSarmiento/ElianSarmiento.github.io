@@ -8,6 +8,10 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
   }
+
+ 
+  
+  
   
 .overlay-box {
     position: absolute;
@@ -19,17 +23,29 @@ body {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
-.overlay-box a {
-  color: #add8e6; 
-  text-decoration: underline;
-  transition: color 0.3s ease;
-}
-
-.overlay-box a:hover {
-  color: white;
-}
-
-
+  .overlay-box a {
+    color: #add8e6; /* light blue (you can change this) */
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  
+  .overlay-box a:hover {
+    color: white;
+  }
+  .overlay-box a button {
+    background-color: #ffffff;
+    color: #000;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .overlay-box a button:hover {
+    background-color: #ddd;
+  }
+  
   .clock-container {
     position: relative;
     width: 360px;
